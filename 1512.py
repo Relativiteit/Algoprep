@@ -34,9 +34,13 @@ class Solution:
         #x = nums[i]
         #y = nums[i+1]
         counter = 0 
-        for i in range(1,len(nums)-1):
-            if nums[i] == nums[i-1]:
-                #print(nums[i],nums[i+1])
-                counter += 1 
-                print(counter)
+        # limit
+        for i in range(len(nums)-1):
+            # index
+            for j in range(i+1, len(nums)):
+                if nums[i] == nums[j]:
+                    # print(nums[i],nums[j])
+                    counter += 1 
+                    print(counter)
+        return counter
             
