@@ -31,8 +31,6 @@ Constraints:
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
     # the 0-indexing, start counting the array from [0,1,2,3,4,5] for the indexes 
-        #x = nums[i]
-        #y = nums[i+1]
         counter = 0 
         # limit
         for i in range(len(nums)-1):
