@@ -30,5 +30,19 @@ Constraints:
 2 <= nums.length <= 500
 0 <= nums[i] <= 100"""
 
+class Solution:
+    def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+        #Brute force method
+        result = list() # make empty list 
+        for i in range(len(nums)):
+            counter = 0 # must be started inside the for loop 
+            print(counter)
+            for j in range(len(nums)):
+                if nums[i] > nums[j]:
+                    counter += 1
+            result.append(counter) # add counter to the list 
+        return result 
+
+
 
         
