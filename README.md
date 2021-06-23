@@ -10,3 +10,4 @@ Same objective as last week.
 - [x] 1672. Richest Cosutomer Wealth 
 - [x] 1512. Number of good pairs
 - [x] 1365. How Many Numbers Are Smaller Than the Current Number
+- [x] 1528. Shuffle String
