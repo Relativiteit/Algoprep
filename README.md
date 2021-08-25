@@ -17,3 +17,7 @@ Same objective as last week. Leason learned: take time to read the questions esp
 Try to make 2 algorithms everyday maybe start with string manipulation.
 
 - [x] 1720. Decode XORed Array
+
+### Week 4 25-08-2021 -- 28-08-2021
+Insertion sort following the book Introduction to Algorithms Third edition 
+
