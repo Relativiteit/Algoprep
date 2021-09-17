@@ -1,1 +1,76 @@
-text test 
+First design then you write the program 
+
+Introduction to algorithms
+
+Algorithms
+Design time (first design) 
+Domain knowledge
+Any language 
+Hardware and OS independent
+Analyze the algorithm 
+
+Program
+Implementation time
+Programmer
+Programmer language (C++ JAVA PYthon)
+Depended on Hardware and OS
+Testing of the program 
+
+1.1 Priori analysis and posteriori Testing
+
+Priori Analysis
+Algorithm
+Independent of Language
+Hardware Independent
+Time & Space Function 
+
+Posteriori Testing
+Program
+Language dependent 
+Hardware dependent
+Watch time & bytes
+
+1.2 Characteristics of Algorithm
+
+Characteristics of Algorithm 
+Input - 0 or more
+Output - at least 1 output 
+Definiteness - (every state must me clear)
+Finiteness - (every algorithm must stop)
+Effectiveness 
+
+1.3 How Write and Analyze Algorithm 
+
+How to write an Algorithm 
+Algorithm swap(a,b)
+    temp = a;
+    a = b;
+    b = temp;
+
+How to analyze an algorithm
+Time 
+Space
+Network consumption (how much data it consumes)
+Power consumption 
+CPU Registers 
+
+
+How to analyze an Algorithm 
+Algorithm swap(a,b)                Space 
+    temp = a;        1        a - 1
+    a = b;           1        b - 1
+    b = temp;        1        temp -1
+
+        f(n) =       3        s(n)=3 words
+x= 5 * a + 6 * b   1 O(1)        O(1) 
+
+
+O(1) when the value is constant, does not matter if s(n) or f(n) are 3*210930293 or 1 a constant will give O(1).
+
+1.4 Frequency Count Method
+Frequency count method
+
+
+
+
+
