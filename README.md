@@ -21,3 +21,9 @@ Try to make 2 algorithms everyday maybe start with string manipulation.
 ### Week 4 25-08-2021 -- 28-08-2021
 Insertion sort following the book Introduction to Algorithms Third edition 
 
+## Time & Space Complexity 
+Following the videos from https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O
+
+1/16 on Time complexity.
+
+
