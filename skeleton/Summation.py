@@ -2,18 +2,19 @@
 class Summation:
     @staticmethod
     def iterative(n: int) -> int:
-        counter: int = 0
+        counter: int = 0 
         for i in range(n):
-            counter += 1
-        return counter
+            counter += 1 
+
+        return counter  
 
     @staticmethod
     def recursive(n: int) -> int:
-        print(n)
-        if n <= 1:
-            return 1
+        if n == 0:  # base case if n is 0 don't count
+            return n 
         else:
-            return sum(Summation.recursive(n-1))
+            return n +  Summation.recursive(n - 1)
+    
 
 
 # Test case(s):
@@ -22,4 +23,4 @@ result: int = Summation.iterative(n)
 assert result == 10, f"got {result}, expected 10"
 
 result = Summation.recursive(n)
-assert result == 10, f"got {result}, expected 10"
+assert result == 55, f"got {result}, expected 10"

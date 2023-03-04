@@ -3,17 +3,26 @@
 class Mod:
     @staticmethod
     def iterative(
-        n: int, # Dividend
+        n: int, # Dividend so n % m, if n = 5, and m = 2, the remainder is 1
         m: int, # Divisor
     ) -> int:
-        raise NotImplementedError("Please implement me!")
+        remainder: int = n % m 
+        return remainder
 
     @staticmethod
     def recursive(
         n: int, # Dividend
         m: int, # Divisor
     ) -> int:
-        raise NotImplementedError("Please implement me!")
+        if n == m: # base case if n == m return 0 
+            return 0
+        elif n < m:
+            return n 
+        elif m == 0:
+            raise ValueError('Cant divide by zero')
+        else: 
+            remainder = Mod.recursive(n-m, m)
+            return remainder 
 
 # Test case(s):
 n: int = 5

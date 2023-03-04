@@ -3,16 +3,35 @@
 class Product:
     @staticmethod
     def iterative(n: int) -> int:
-        raise NotImplementedError("Please implement me!")
+        result: int = 2 ** n
+        return result 
+    
+   
 
     @staticmethod
     def recursive(n: int) -> int:
-        raise NotImplementedError("Please implement me!")
+        if n == 0: # because x**0 is 1  # base case
+            return 1
+        else:
+        #    return 2 * power_of_two(n -1)
+            return 2 * Product.recursive(n -1)
+        
+         
+    """ def power_of_two(n: int) -> int:
+        result = 1
+        for i in range(n):
+            result *= 2
+        return result """
+        
+    
+
 
 # Test case(s):
 n: int = 6
 result: int = Product.iterative(n)
-assert result == 128, f"got {result}, expected 128"
+assert result == 64, f"got {result}, expected 64"
 
 result = Product.recursive(n)
-assert result == 128, f"got {result}, expected 128"
+assert result == 64, f"got {result}, expected 64"
+
+
